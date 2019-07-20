@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91ac4abe-d49a-414d-9eda-7381c85d04ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy_to_region.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy_to_region.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mrdeploy-tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/mrdeploy-tester.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mrdeploy-tester.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="360">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -28,17 +30,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serverless.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="24" />
+            <state relative-caret-position="282">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            <state relative-caret-position="330">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -46,8 +48,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy_to_region.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="210">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="270">
+                <caret line="18" column="192" selection-start-line="18" selection-start-column="192" selection-end-line="18" selection-end-column="192" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -66,8 +80,10 @@
         <option value="$PROJECT_DIR$/mrdeploy-tester/requirements.txt" />
         <option value="$PROJECT_DIR$/mrdeploy-tester/mrdelpoy-tester.py" />
         <option value="$PROJECT_DIR$/serverless.yml" />
-        <option value="$PROJECT_DIR$/deploy_to_region.sh" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/deploy_to_region.sh" />
+        <option value="$PROJECT_DIR$/mrdeploy-tester.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -160,18 +176,24 @@
       <option name="presentableId" value="Default" />
       <updated>1563055315285</updated>
       <workItem from="1563055321046" duration="5212000" />
-      <workItem from="1563062447260" duration="3332000" />
+      <workItem from="1563062447260" duration="3423000" />
+      <workItem from="1563109139949" duration="6059000" />
+      <workItem from="1563283019285" duration="1108000" />
+      <workItem from="1563286807905" duration="379000" />
+      <workItem from="1563393503323" duration="610000" />
+      <workItem from="1563410557193" duration="166000" />
+      <workItem from="1563634292220" duration="359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8544000" />
+    <option name="totallyTimeSpent" value="17316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="400" y="0" width="1280" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19466881" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21405493" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -205,34 +227,44 @@
     <entry file="file://$PROJECT_DIR$/mrdeploy-tester/package.json" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/__init__.py" />
     <entry file="file://$PROJECT_DIR$/mrdeploy-tester/mrdelpoy-tester.py" />
-    <entry file="file://$PROJECT_DIR$/deploy_to_region.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mrdeploy-tester.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="360">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serverless.yml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="24" />
+        <state relative-caret-position="330">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/serverless.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="282">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy_to_region.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="192" selection-start-line="18" selection-start-column="192" selection-end-line="18" selection-end-column="192" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

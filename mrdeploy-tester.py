@@ -12,6 +12,7 @@ def check(event, context):
             "statusCode": 200,
             "body": json.dumps({
                 "status_code": res.status_code,
+                "content": str(res.content),
                 "elapsed_time": res.elapsed.total_seconds()
             })
         }
@@ -19,9 +20,7 @@ def check(event, context):
     except Exception as e:
         response = {
             "statusCode": 500,
-            "body": json.dumps({
-                "error": f"Exception: {e}"
-            })
+            "content": f"Exception: {str(e)}"
         }
 
     return response
